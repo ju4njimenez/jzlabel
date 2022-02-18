@@ -137,12 +137,12 @@ a{
         font-size: 1em;
     }
 }
-@media(max-width:340px){
+@media(max-width:380px){
     .recuadro-registrate{
         width: 16em;
     }
     .registrarse{
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
 }
 .opciones-rol{
     font-size: 0.8em;
