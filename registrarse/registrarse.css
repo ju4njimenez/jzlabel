@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'jzfuente';
+    src: url(../fuentes/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "jzfuente";
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../image/backgroundregister.jpg);
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3.5%;
+}
+
+.container-recuadro {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro-registrate {
+    height: 52em;
+    width: 30em;
+    background-color: #151515;
+    box-shadow: 0px 2px 12px 0px rgba(255,235,205,0.75);
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(255,235,205,0.75);
+    -moz-box-shadow: 0px 2px 12px 0px rgba(255,235,205,0.75);
+    border-radius: 0.8em;
+}
+
+.content-registrate {
+    color: #FFF8DC;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 0.8em;
+    font-size: 3em;
+    font-weight: 600;
+    text-shadow: 3px 0px 17px rgba(0, 0, 0, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-input {
+    width: 100%;
+    margin-bottom: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.input-registrate {
+    background-color: #C4C4C4;
+    border-radius: 1.2em;
+    height: 2em;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.opcion-rol{
+    margin: 0.6em;
+}
+.mail {
+    width: 15em;
+}
+
+.password {
+    width: 10em;
+}
+.repassword {
+    width: 10em;
+}
+
+.registrarse{
+    background-color: #C4C4C4;
+    border-radius: 1.2em;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.22em;
+    margin-top: 1.5em;
+    margin-bottom: 3.5em ;
+    border-color:#005CC8;
+    cursor: pointer;
+}
+
+.container-ingresa{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    color: #005CC8;
+}
+
+@media(max-width:1030px){
+    .recuadro-registrate {
+        height: 40em;
+        width: 20em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    label{
+        font-size: 1em;
+    }
+    .registrarse{
+        margin-bottom: 2em;
+}
+    .container-ingresa{
+        font-size: 1em;
+    }
+}
+@media(max-width:340px){
+    .recuadro-registrate{
+        width: 16em;
+    }
+    .registrarse{
+        margin-bottom: 1.5em;
+}
+.opciones-rol{
+    font-size: 0.8em;
+}
+}

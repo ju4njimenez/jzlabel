@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrarse.css">
+    <title>JZ label | Registrate</title>
+</head>
+
+<body>
+    <div class="container-recuadro">
+        <div class="recuadro-registrate">
+            <div class="content-registrate">
+                <h2>Registrate</h2>
+                <form>
+                    <div class="container-input">
+                        <label for="username">Nombre de usuario</label>
+                        <input type="text" id="username" class="input-registrate username">
+                    </div>
+                    <div class="container-input">
+                        <label for="rol">¿Que sos?</label>
+                        <div class="opciones-rol">
+                        <input type="radio" name="rol" value="artista" class="opcion-rol">Artista
+                        <input type="radio" name="rol" value="producer" class="opcion-rol">Producer
+                        <input type="radio" name="rol" value="otro" class="opcion-rol">Otro
+                    </div>
+                    </div>
+                    <div class="container-input">
+                        <label for="fullname">Nombre y apellido</label>
+                        <input type="text" id="fullname" class="input-registrate fullname">
+                    </div>
+                    <div class="container-input">
+                        <label for="mail">Correo electronico</label>
+                        <input type="mail" id="mail" class="input-registrate mail">
+                    </div>
+                    <div class="container-input">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" class="input-registrate password">
+                    </div>
+                    <div class="container-input">
+                        <label for="repassword">Repetir contraseña</label>
+                        <input type="password" id="repassword" class="input-registrate repassword">
+                    </div>
+                    <input type="submit" class="registrarse" value="Registrarse">
+                </form>
+                <div class="container-ingresa">
+                    <p>¿Ya tenes cuenta?</p>
+                    <a href="../login/login.html">Ingresa!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
