@@ -136,6 +136,10 @@ a{
     .container-ingresa{
         font-size: 1em;
     }
+    .input-registrate{
+        height: 1em;
+        font-size: 0.8em;
+    }
 }
 @media(max-width:380px){
     .recuadro-registrate{

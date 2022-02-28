@@ -30,7 +30,7 @@ body {
     background-color: #151515;
     width: 100%;
     clear: both;
-    height: 9vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,6 +386,12 @@ footer a{
 @media (min-width: 889px) {
     .icon-menu {
         display: none !important;
+    }
+    .ingresar{
+        color: blanchedalmond;
+    }
+    .ingresar:hover{
+color: #8a2be2;
     }
    
 

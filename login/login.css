@@ -127,6 +127,10 @@ a{
     .container-registrate{
         font-size: 1em;
     }
+    .input-ingresar{
+        height: 1em;
+        font-size: 0.8em;
+    }
 }
 @media(max-width:340px){
     .recuadro-ingresar{
