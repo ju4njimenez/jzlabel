@@ -8,21 +8,24 @@
 </head>
 
 <body>
-    <div class="container-recuadro">
+    <div class="container-recuadro" id="container-dom">
         <div class="recuadro-ingresar">
             <div class="content-ingresar">
                 <h2>Ingresar</h2>
                 <form>
                     <div class="container-input">
-                        <label for="mail">Correo electronico</label>
-                        <input type="mail" id="mail" class="input-ingresar mail">
+                        <label for="username"> Nombre de usuario </label>
+                        <input type="text" id="username" class="input-ingresar mail">
                     </div>
                     <div class="container-input">
                         <label for="password">Contraseña</label>
                         <input type="password" id="password" class="input-ingresar password">
                     </div>
-                    <input type="submit" class="iniciar-sesion" value="Iniciar sesion">
+                    <input type="submit" class="iniciar-sesion" id="ingresar" value="Iniciar sesion">
                 </form>
+                <div class="container-validacion" id="container-validaciones">
+                    <ul id="validaciones"></ul>
+                </div>
                 <div class="container-registrate">
                     <p>¿Sin cuenta? Traaanqui!</p>
                     <a href="../registrarse/registrarse.html">Registrate aca!</a>
@@ -30,6 +33,7 @@
             </div>
         </div>
     </div>
+    <script src="./login.js"></script>
 </body>
 
 </html>
