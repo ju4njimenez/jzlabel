@@ -85,15 +85,7 @@ const handleSubmit = (e) => {
 
 }
 
-//formulario.addEventListener("change", validarForm)
+
 formulario.addEventListener("submit", handleSubmit)
 
 
-//    const usuario = [...e.target.elements]
-//    .filter((element)=>element.type!=="submit")
-//    .reduce((acc, element)=>{
-//        acc[element.getAttribute("id")]=element.value;
-//        return acc;
-//        },{});
-//        console.log(usuario);
-//}
